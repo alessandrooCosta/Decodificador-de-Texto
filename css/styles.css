@@ -10,7 +10,7 @@ background-color: black;
 .main{
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 50%;
 }
 
 .ladoDireito{
