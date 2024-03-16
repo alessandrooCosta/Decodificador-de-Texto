@@ -4,15 +4,36 @@
 }
 
 body{
-background-color: black;
+background-color: white;
+padding: 5% 30%;
 }
 
 .main{
     display: flex;
     justify-content: center;
-    gap: 50%;
+    gap: 55%;
+}
+
+.ladoEsquerdo{
+  padding: 10% 15%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
 .ladoDireito{
-    color: white;
+  padding: 10% 15%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
+
+.image{
+  width: 250px;
+  height: 200px;
+}
+
