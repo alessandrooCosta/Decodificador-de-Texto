@@ -22,3 +22,14 @@ function descriptografar(texto){
        campo.innerHTML = texto;
 }
 
+function copiar(){
+    let copyText = document.querySelector("#conteudo").innerText;
+    navigator.clipboard.writeText(copyText);
+}
+document.querySelector("#botaoCopiar").addEventListener("click", copiar);
+
+function limpar(){
+  
+}
+  
+ 
