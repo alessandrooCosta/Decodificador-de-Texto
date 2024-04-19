@@ -1,8 +1,5 @@
 
 document.getElementById('limpar').setAttribute('disabled',true);
-
-
-
 function temAcentoOuEspecial(texto) {
     var texto = document.getElementById("textarea").value;
         var acentosEspeciais = "áàãâäéèêëíìîïóòõôöúùûüçñÁÀÃÂÄÉÈÊËÍÌÎÏÓÒÕÔÖÚÙÛÜÇÑ!@#$%^&*()_+\-=\[\]{};':\"\\|,.<>\/?";
@@ -13,7 +10,6 @@ function temAcentoOuEspecial(texto) {
         }
         return false;
     }
- 
 function criptografar() {
 var texto = document.getElementById("textarea").value;
 var v = temAcentoOuEspecial();
@@ -39,7 +35,6 @@ else if(texto !== texto.toLowerCase()){
     document.getElementById('limpar').removeAttribute('disabled');
     }
 }
-
 function descriptografar(texto) {
     var texto = document.getElementById("textarea").value;
     var v = temAcentoOuEspecial();
@@ -65,13 +60,11 @@ else if(texto !== texto.toLowerCase()){
     document.getElementById('limpar').removeAttribute('disabled');
 }
 }
-
 function copiar() {
     let copyText = document.querySelector("#conteudo").innerText;
     navigator.clipboard.writeText(copyText);
 }
 document.querySelector("#botaoCopiar").addEventListener("click", copiar);
-
 function limpar() {
     campoTextarea = document.querySelector('textarea');
     campoTextarea.value = "";
