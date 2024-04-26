@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <title>Decodificador de Texto</title>
 </head>
+
 <body>
     <header>
         <img src="" alt="">
     </header>
-    <main class="main">
+    <main>
         <section class="ladoEsquerdo">
-        <h1>Digite seu texto</h1>
-        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-        <h5>Apenas letras minúscula e sem acento.</h5>
-        <p>
-            <button id="botaoCript" name="botaoCript" onclick="criptografar()">Cripitografar</button>
-            <button id="botaoDescript" name="botaoDescript" onclick="descriptografar()">Discriptografar</button>
-        </p>
+            <textarea name="textarea" id="textarea" placeholder="Digite seu texto"></textarea>
+            <div class="atencao">
+                <img class="img1" src="assets/Vector.png">
+                <h6> Apenas letras minúscula e sem acento.</h6>
+            </div>
+            <div class="botao">
+                <button id="botaoCript" name="botaoCript" onclick="criptografar()">Criptografar</button>
+                <button id="botaoDescript" name="botaoDescript" onclick="descriptografar()">Discriptografar</button>
+            </div>
         </section>
-        <div class="ladoDireito">
-            <div id="ladoDireito">
-                <img class="image" src="assets/High quality products 1 1.png" alt="">
+        <section class="ladoDireito">
+            <div id="campo">
+                <img class="img2" src="assets/High quality products 1 1.png" alt="">
                 <div id="conteudo">
                     <h2 class="paragrafo" id="paragrafo">Nenhuma mensagem encotrada</h2>
-                    Digite um texto que você deseja Criptografar ou Descriptografar.    
+                    Digite um texto que você deseja Criptografar ou Descriptografar.
+                </div>
             </div>
-            </div>
-        <button id="botaoCopiar" name="botaoCopiar" onclick="copiar()" >Copiar</button>  
-        <button id="limpar" name="limpar" onclick="limpar()" >Limpar</button>
-        <div>
+            <button id="botaoCopiar" name="botaoCopiar" onclick="copiar()">Copiar</button>
+            <button id="limpar" name="limpar" onclick="limpar()">Limpar</button>
+        </section>
     </main>
     <footer>
-
+        aaa
     </footer>
     <script src="js/app.js"></script>
 </body>
+
 </html>
