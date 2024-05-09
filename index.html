@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Decodificador de Texto</title>
 </head>
 
@@ -14,7 +17,7 @@
     </header>
     <main>
         <section class="ladoEsquerdo">
-            <textarea name="textarea" id="textarea" placeholder="Digite seu texto"></textarea>
+            <textarea name="textarea" id="textarea" placeholder="Digite seu texto"  style="white-space: pre-wrap; overflow-wrap: break-word;"></textarea>
             <div class="atencao">
                 <img class="img1" src="assets/Vector.png">
                 <h6> Apenas letras minúscula e sem acento.</h6>
@@ -26,14 +29,16 @@
         </section>
         <section class="ladoDireito">
             <div id="campo">
-                <img class="img2" src="assets/High quality products 1 1.png" alt="">
-                <div id="conteudo">
-                    <h2 class="paragrafo" id="paragrafo">Nenhuma mensagem encotrada</h2>
-                    Digite um texto que você deseja Criptografar ou Descriptografar.
-                </div>
+                <img class="img2" id="img" src="assets/High quality products 1 1.png" alt="">
             </div>
-            <button id="botaoCopiar" name="botaoCopiar" onclick="copiar()">Copiar</button>
-            <button id="limpar" name="limpar" onclick="limpar()">Limpar</button>
+            <div id="conteudo">
+                <h2 class="paragrafo" id="paragrafo">Nenhuma mensagem encotrada</h2>
+                Digite um texto que você deseja Criptografar ou Descriptografar.
+            </div>
+            <div id="botoes">
+                <button id="botaoCopiar" name="botaoCopiar" onclick="copiar()">Copiar</button>
+                <button id="limpar" name="limpar" onclick="limpar()">Limpar</button>
+            </div>
         </section>
     </main>
     <footer>
