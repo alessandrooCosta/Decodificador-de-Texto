@@ -1,3 +1,8 @@
+<h2 align="left">Capturas de tela</h2>
+![decodificador](https://github.com/user-attachments/assets/9e4f13b8-5304-4b53-84c2-2a891f790225)
+
+###
+
 <h1 align="left">Decodificador de Texto</h1>
 
 ###
@@ -6,7 +11,7 @@
 
 ###
 
-<h2 align="left">Funcionalidades:</h2>
+<h2 align="left">📋 Funcionalidades:</h2>
 
 ###
 
@@ -14,7 +19,7 @@
 
 ###
 
-<h2 align="left">Tecnologias Utilizadas:</h2>
+<h2 align="left">🚀 Tecnologias Utilizadas:</h2>
 
 ###
 
@@ -22,7 +27,7 @@
 
 ###
 
-<h2 align="left">Como Executar:</h2>
+<h2 align="left">📖 Como Executar:</h2>
 
 ###
 
@@ -34,7 +39,6 @@
 
 ###
 
-<h2 align="left">Capturas de tela</h2>
-![decodificador](https://github.com/user-attachments/assets/9e4f13b8-5304-4b53-84c2-2a891f790225)
-
+<h2 align="left">🖼️ Capturas de tela</h2>
+![decodificador](https://github.com/user-attachments/assets/c49f62db-f3a3-4270-b4ef-aa83fcd72525)
 ###
