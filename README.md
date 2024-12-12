@@ -29,6 +29,9 @@
 <p align="left">1. Digite o texto que deseja criptografar ou descriptografar no campo fornecido.<br><br>2. Escolha entre as opções:<br>Criptografar<br>Descriptografar<br><br>3. Copie o resultado ou limpe os campos conforme necessário.</p>
 
 ###
+<p align="left">Acesse o <a href="https://alessandroocosta.github.io/Decodificador-de-Texto/"> projeto online </a> ou confira o código completo no GitHub. 🚀</p>
+
+###
 
 <h2 align="left">🖼️ Capturas de tela</h2>
 
